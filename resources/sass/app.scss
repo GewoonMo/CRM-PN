@@ -1,0 +1,141 @@
+// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Custom
+
+.table > :not(caption) > * > * {
+    color: white;
+}
+
+.Custom-color {
+    color: white;
+}
+
+.card {
+    background-color: #101827;
+}
+
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #101827;
+}
+
+.list-group-item a {
+    color: #212529;
+}
+
+.list-group-item a:hover {
+    text-decoration: none;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.navbar > .container-fluid {
+    background-color: #1F2937;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    font-weight: bold;
+    color: #212529;
+}
+
+
+.dropdown-item:hover {
+    color: #007bff;
+    background-color: white;
+}
+
+/* Main content styles */
+
+.form-label {
+    color: white;
+}
+.row {
+    height: 100%;
+    margin: 0;
+}
+
+.col-md-2 {
+    padding: 0;
+}
+
+.col-md-10 {
+    padding: 0;
+}
+
+.py-4 {
+    padding: 30px 50px;
+    background-color: #1F2937;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+/* Sidebar styles */
+
+$sidebar-bg-color: #1f2937;
+$sidebar-text-color: #333;
+
+.bg-light {
+    background-color: $sidebar-bg-color !important;
+    ul {
+        margin-top: 20px;
+        li {
+            padding: 10px 20px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+
+            a {
+                color: $sidebar-text-color;
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    text-decoration: none;
+                    color: #fff;
+                    background-color: #696CFF;
+                    border-radius: 10px;
+                }
+            }
+            &.active {
+                border: 1px solid #007bff;
+                border-radius: 10px;
+                background-color: #e9ecef;
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+
+
